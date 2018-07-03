@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_galaxy_colors"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+        <Toolbar
+            android:id="@+id/myToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:navigationIcon="@drawable/left_arrow"
+            tools:targetApi="lollipop">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textSize="25sp"
+                android:textColor="#59FFFFFF"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+        </Toolbar>
+        <ImageView
+            android:id="@+id/ivAttachment"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/attach_icon"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@+id/ivAttachment"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#59FFFFFF"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/man_user2"
+            android:hint="@string/firstName"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#73FFFFFF"
+            android:drawableLeft="@drawable/man_user2" />
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#59FFFFFF"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/man_user2"
+            android:hint="@string/lastname"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#73FFFFFF"
+            android:drawableLeft="@drawable/man_user2" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#59FFFFFF"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/man_user2"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="#73FFFFFF"
+            android:drawableLeft="@drawable/man_user2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_upload"
+            android:text="Update Profile"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"/>
+</LinearLayout>
