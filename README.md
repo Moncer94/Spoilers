@@ -21,9 +21,6 @@
 [<img src="http://i.imgur.com/kCe493M.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/kCe493M.png)
 [<img src="http://i.imgur.com/Q85Cqcl.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/Q85Cqcl.png)
 
-## Donations
-If you would like to help, you can donate Bitcoin on ```1FV8m1MKqZ9ZKB8YNwpsjsuubHTznJSiT8``` address.
-Thanks!
 
 ## License
 ```
